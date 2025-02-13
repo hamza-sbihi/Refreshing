@@ -1,0 +1,29 @@
+.create.button{
+    background-color: rgb(46, 214, 46);
+    color: aliceblue;
+}
+.update.button{
+    background-color: rgb(241, 145, 55);
+    color: aliceblue;
+}
+.delete.button{
+    background-color: rgb(236, 45, 45);
+    color: aliceblue;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+th.light, td.light {
+    border: 1px solid black; /* Adds border between columns and rows */
+    padding: 8px; /* Adds some padding for better readability */
+    text-align: left; /* Align text to the left */
+  }
+  th.dark, td.dark {
+    border: 1px solid white; /* Adds border between columns and rows */
+    padding: 8px; /* Adds some padding for better readability */
+    text-align: left; /* Align text to the left */
+  }

@@ -1,0 +1,44 @@
+.modal.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  position: relative;
+}
+/* Container for the input group */
+.input-group {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+  gap: 4px;  /* Align labels and inputs vertically */
+}
+
+/* Ensure inputs have the same width */
+.input-group input {
+  width: 100%; /* Take up full width of the container */
+  padding: 8px; /* Add padding for better appearance */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 4px; /* Add rounded corners */
+}
+
+/* Optional: Style the labels */
+.input-group label {
+  margin-right: 8px; /* Add space between label and input */
+}
+.button-container {
+  position: absolute;
+  bottom: 20px; 
+  right: 20px; 
+}

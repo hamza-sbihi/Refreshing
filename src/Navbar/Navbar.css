@@ -1,0 +1,52 @@
+/* Light mode styles */
+.navbar {
+  display: flex; /* Make the navbar a flex container */
+  justify-content: space-between; /* Space between title and button */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px; /* Add some padding */
+}
+.navbar.light {
+  background-color: aliceblue;
+  color: black;
+}
+
+  
+  .navbar.light button {
+    display: flex;
+    background-color: #f0f0f0;
+    color: black;
+    justify-content: flex-end; /* Push button to the right */
+
+  }
+  
+  .navbar.light h1 {
+    color: black;
+  }
+  
+  /* Dark mode styles */
+  .navbar.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar.dark button {
+    display: flex;
+    background-color: #444;
+    color: white;
+    justify-content: flex-end; /* Push button to the right */
+  }
+
+  
+  .navbar.dark h1 {
+    color: white;
+  }
+  
+  /* Additional styles for the button */
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+
+  }
+  

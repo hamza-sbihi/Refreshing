@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import React from 'react'
+import Navbar from './Navbar/Navbar'
+import { useTheme } from './Navbar/ThemeContext'
 import './App.css';
+import DataComponent from './DataComponent';
 
-function App() {
+const App = () => {
+  const {isDarkMode,toggleTheme} = useTheme();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={isDarkMode? 'dark-mode':'light-mode'}>
+      <Navbar />
+    <div>App</div>
+    <DataComponent dark = {isDarkMode} />
     </div>
-  );
+    
+  )
 }
 
-export default App;
+export default App

@@ -12,12 +12,18 @@
 }
 .center{
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     
 }
-th, td {
+th.light, td.light {
     border: 1px solid black; /* Adds border between columns and rows */
+    padding: 8px; /* Adds some padding for better readability */
+    text-align: left; /* Align text to the left */
+  }
+  th.dark, td.dark {
+    border: 1px solid white; /* Adds border between columns and rows */
     padding: 8px; /* Adds some padding for better readability */
     text-align: left; /* Align text to the left */
   }

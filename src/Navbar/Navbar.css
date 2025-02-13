@@ -1,8 +1,15 @@
 /* Light mode styles */
+.navbar {
+  display: flex; /* Make the navbar a flex container */
+  justify-content: space-between; /* Space between title and button */
+  align-items: center; /* Vertically center items */
+  padding: 10px 20px; /* Add some padding */
+}
 .navbar.light {
-    background-color: white;
-    color: black;
-  }
+  background-color: aliceblue;
+  color: black;
+}
+
   
   .navbar.light button {
     display: flex;

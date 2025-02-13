@@ -6,7 +6,7 @@ const Navbar = () => {
     const{isDarkMode,toggleTheme} = useTheme();
   return (
     <nav className={`navbar ${isDarkMode ? 'dark':'light'}`}>
-        <div>Navbar</div>
+        <div>Refreshing</div>
         <button className = "button" onClick={toggleTheme}>
             {isDarkMode ? 'switch to light mode' : 'switch to dark mode'}
         </button>

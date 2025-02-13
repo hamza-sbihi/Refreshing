@@ -10,7 +10,7 @@ const App = () => {
     <div className={isDarkMode? 'dark-mode':'light-mode'}>
       <Navbar />
     <div>App</div>
-    <DataComponent />
+    <DataComponent dark = {isDarkMode} />
     </div>
     
   )

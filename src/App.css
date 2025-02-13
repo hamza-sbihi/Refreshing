@@ -2,11 +2,13 @@
 .dark-mode {
   background-color: black;
   color: white;
-  height: 100vh; /* Ensure full page height */
+  height: 100vh; 
+  border-color: white;
 }
 
 .light-mode {
   background-color: white;
   color: black;
   height: 100vh;
+  border-color: black;
 }
